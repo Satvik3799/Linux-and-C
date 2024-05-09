@@ -1,6 +1,6 @@
 /*
 
-After new_pid fork(); executes, fork creates two processes, one parent and one child. The parent process is the current process and child process is new created identical process with different PID. Keep in mind, that fork returns PID. That PID is stored in new_pid variable. 
+After new_pid = fork(); executes, fork creates two processes, one parent and one child. The parent process is the current process and child process is new created identical process with different PID. Keep in mind, that fork returns PID. That PID is stored in new_pid variable. 
 
 The parent process continuous after fork call. and Finds the If-else block, its PID is not zero. So executes else block.
 Meanwhile, the child process is running as well, and it executes if block. 
